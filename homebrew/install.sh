@@ -18,7 +18,9 @@ else
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
+brew install grc coreutils spark python python3 ack autojump nmap postgresql redis solr thefuck wget git bash-completion hub gettext aircrack-ng
+brew link gettext
+
 # Cleanup
 brew cleanup
 
