@@ -16,5 +16,5 @@ fi
 # Install Apps
 for app in dockertools aldryn-client lancet pep8 devpi-client cookiecutter
 do
-  pipsi install $app
+  ~/.local/bin/pipsi install $app
 done
