@@ -27,7 +27,7 @@ brew install ack  # better grep
 brew install autojump  # jump to directories
 brew install thefuck  # correct incorrectly spelled commands
 brew install wget
-brew install bash-completion
+brew install zsh zsh-syntax-highlighting
 brew install gist
 
 # Development
