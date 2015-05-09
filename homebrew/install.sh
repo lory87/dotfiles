@@ -14,12 +14,12 @@ else
   echo "  Upgrading Homebrew."
   brew update
   echo "  Upgrading Homebrew packages."
-  brew upgrade
+  brew upgrade --all
 fi
 
 # Install homebrew packages
 brew install grc coreutils spark python python3 ack autojump nmap postgresql redis solr thefuck wget git bash-completion hub gettext aircrack-ng
-brew link gettext
+brew link gettext --force
 
 # Cleanup
 brew cleanup
