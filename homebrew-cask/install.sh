@@ -13,7 +13,7 @@ else
 fi
 
 # Install Cask Apps
-brew cask install 1password hipchat pycharm java6 skype google-chrome macdown dropbox google-drive sublime-text rowanj-gitx
+brew cask install 1password spectacle iterm2 flux caffeine hipchat pycharm java6 skype google-chrome macdown dropbox google-drive sublime-text rowanj-gitx
 
 brew cask cleanup
 
