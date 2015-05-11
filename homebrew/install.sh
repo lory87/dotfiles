@@ -33,11 +33,15 @@ brew install gist
 # Development
 brew install \
 	python python3 \
-	postgresql \
 	redis solr \
-	git hub \
-	gettext
+	git hub
 
+# postgresql
+brew install postgresql
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+
+# gettext
+brew install gettext
 brew link gettext --force
 
 # Network Pentest
