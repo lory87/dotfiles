@@ -1,5 +1,5 @@
 --ignore-dir=.idea
---ingore-dir=.git
+--ignore-dir=.git
 --ignore-dir=env
 --ignore-dir=bower_components
 --ignore-dir=node_modules
