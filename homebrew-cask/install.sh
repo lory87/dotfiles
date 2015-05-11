@@ -13,7 +13,8 @@ else
 fi
 
 # Install Cask Apps
-brew cask install 1password lunchy slate iterm2 flux appcleaner caffeine hipchat pycharm java6 skype google-chrome macdown dropbox google-drive sublime-text rowanj-gitx
+# Already installed: 1password hipchat pycharm java6 skype google-chrome dropbox google-drive sublime-text
+brew cask install lunchy spectacle iterm2 flux appcleaner caffeine rowanj-gitx
 
 brew cask cleanup
 

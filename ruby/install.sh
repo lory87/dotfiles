@@ -12,4 +12,4 @@ fi
 source ~/.rvm/scripts/rvm
 
 # Install gems
-gem install lunchy
+sudo gem install lunchy

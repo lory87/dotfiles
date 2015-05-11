@@ -22,7 +22,6 @@ fi
 # Utils
 brew install coreutils  # GNU coreutils
 brew install grc  # shell colouriser
-brew install spark  # spark lines in shell: $ spark 0 30 55 80 33 150 => ▁▂▃▅▂▇
 brew install ack  # better grep
 brew install autojump  # jump to directories
 brew install thefuck  # correct incorrectly spelled commands
@@ -44,10 +43,6 @@ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 # gettext
 brew install gettext
 brew link gettext --force
-
-# Network Pentest
-brew install aircrack-ng nmap
-
 
 # Cleanup
 brew cleanup

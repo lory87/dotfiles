@@ -46,3 +46,6 @@ bindkey "$terminfo[kcuu1]" history-beginning-search-backward
 bindkey "$terminfo[kcud1]" history-beginning-search-forward
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+##### Autorun divio osx-bootstrap
+bash ~/.osx-bootstrap/updater.sh

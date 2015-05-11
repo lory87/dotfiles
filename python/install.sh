@@ -15,7 +15,7 @@ else
 fi
 
 # Install Apps
-for app in dockertools aldryn-client pep8 devpi-client cookiecutter
+for app in aldryn-client pep8 devpi-client cookiecutter
 do
   ~/.local/bin/pipsi install $app
 done
