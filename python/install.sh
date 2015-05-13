@@ -8,6 +8,7 @@ if test ! $(which pipsi)
 then
   echo "  Installing Pipsi."
   curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
+  ~/.local/venvs/pipsi/bin/pip install -U https://github.com/mitsuhiko/pipsi/archive/master.zip
 else
   echo "  Upgrading Pipsi."
   pipsi upgrade pipsi
