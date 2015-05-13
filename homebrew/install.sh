@@ -29,6 +29,7 @@ brew install thefuck  # correct incorrectly spelled commands
 brew install wget
 brew install zsh zsh-syntax-highlighting
 brew install gist
+brew install libgit2 --with-libssh2
 
 # Development
 brew install \

@@ -14,7 +14,10 @@ else
 fi
 
 # Install Apps
-for app in dockertools aldryn-client lancet pep8 devpi-client cookiecutter
+for app in dockertools aldryn-client pep8 devpi-client cookiecutter
 do
   ~/.local/bin/pipsi install $app
 done
+
+# Lancet with Python 3
+pipsi install --python=$(which python3) lancet
