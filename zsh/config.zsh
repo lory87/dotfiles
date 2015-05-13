@@ -41,4 +41,8 @@ bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
 
+# better history search (includes substrings)
+bindkey "$terminfo[kcuu1]" history-beginning-search-backward
+bindkey "$terminfo[kcud1]" history-beginning-search-forward
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
