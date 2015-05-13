@@ -1,0 +1,14 @@
+[tracker]
+url = https://divio-ch.atlassian.net
+username = Chive
+
+[harvest]
+url = https://divio.harvestapp.com
+username = kim.thoenen@divio.ch
+task_id = 93551
+
+[github]
+username = Chive
+
+[commands]
+ssh = lancet.contrib.dploi.ssh
